@@ -1,0 +1,39 @@
+.nav {
+
+    // .nav__list
+    &__list {
+        display: flex;
+    }
+
+    // .nav__item
+    &__item {
+        padding: 10px 16px;
+        text-align: center;
+
+        margin-right: 80px;
+
+        transition: background-color 0.3s linear;
+    }
+
+    &__item:hover {
+        background-color: var(--color-blue);
+    }
+
+    &__item.active{
+        background-color: var(--color-blue);
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+    // .nav__link
+    &__link {
+        line-height: 19px;
+
+        color: var(--color-white);
+        text-decoration: none;
+    }
+}
+
+

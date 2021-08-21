@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  
+  margin: 0;
+  background-color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1310px;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--color-dorado);
+}

@@ -1,0 +1,87 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: #D7D7D7;
+
+    border-top: 4px solid var(--color-blue);
+
+    // .footer__container
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 170px;
+    }
+
+    // .footer__contacts
+    &__contacts {
+        display: flex;
+        align-items: center;
+    }
+
+    // .footer__logo 
+    &__logo {
+        margin-right: 37px;
+    }
+
+    // .footer__call
+    &__call {
+        font-size: 14px;
+        line-height: 16px;
+
+        color: var(--color-dorado);
+
+        margin-right: 57px;
+    }
+
+    // .footer__phone
+    &__phone {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 17px;
+        color: var(--color-dorado);
+    }
+
+}
+
+// .social
+.social {
+    &__link {
+        margin-right: 15px;
+    }
+
+    &__link:last-child {
+        margin-right: 0;
+    }
+}
+
+// .policy
+.policy {
+
+    // .policy__list
+    &__list {
+        display: flex;
+    }
+
+    // .policy__item
+    &__item {
+        margin-right: 20px;
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+    // .policy__link
+    &__link {
+        line-height: 19px;
+
+        text-decoration: underline;
+
+        color: var(--color-dorado);
+    }
+}

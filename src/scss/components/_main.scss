@@ -1,0 +1,36 @@
+.main {
+
+    // .main__container
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .main__info
+    &__info {
+        text-align: center;
+
+        margin: auto 0;
+    }
+
+    // .main__title
+    &__title {
+        margin-bottom: 100px;
+    }
+
+    // .main__image
+    &__image path{
+        opacity: 0;
+    
+        transition: opacity .2s linear;
+    }
+     
+    &__image path:hover{
+        opacity: 1;
+    }
+}
+
+// path
+path.current__floor {
+    opacity: 1;
+}

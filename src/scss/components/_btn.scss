@@ -1,0 +1,17 @@
+.btn {
+    border: 0;
+    cursor: pointer;
+
+    line-height: 19px;
+    color: var(--color-white);
+
+    padding: 16px 36px;
+    background-color: var(--color-blue);
+    border-radius: 6px;
+
+    transition: background-color .2s linear;
+}
+
+.btn:hover {
+    background-color: darken(#3596F5, 7%);
+}
